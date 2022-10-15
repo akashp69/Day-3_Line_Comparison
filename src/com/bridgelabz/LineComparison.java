@@ -18,9 +18,11 @@ public class LineComparison {
         System.out.println(" distance2 " + dis2);
         if(dis1==dis2){
             System.out.println("Two Lines are equal");
+        } else if (dis1>=dis2) {
+            System.out.println("Line 1 length is Greater than Line 2 length ");
         }
         else
-            System.out.println("Two Lines are not equal");
+            System.out.println("Line 1 length is smaller than Line 2 length");
     }
 }
 
