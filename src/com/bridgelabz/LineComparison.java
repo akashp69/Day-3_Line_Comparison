@@ -39,7 +39,7 @@ class Line1 {
 
 
         int c=s1.compareTo(s2);
-        System.out.println(c);
+       
         if (c==0) {
             System.out.println("lines are equal");
         }else if(c>0){
