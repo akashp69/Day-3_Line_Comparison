@@ -51,7 +51,7 @@ class Line1 {
     }
 }
 
-class Line2 extends Line1{
+class Point extends Line1{
     void compairLines (){
         System.out.println("Comparing two lines ");
 
@@ -62,7 +62,7 @@ class Line2 extends Line1{
 public class LineComparison {
 
     public static void main(String[] args) {
-    Line2 obj1 = new Line2();
+    Point obj1 = new Point();
     obj1.compairLines();
     obj1.getLine();
 
